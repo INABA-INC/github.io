@@ -1,0 +1,271 @@
+html {
+    font-size: 16px;
+}
+
+/*
+    スマホ表示
+*/
+
+.header-sp-tel {
+    font-size: clamp(1rem, 4.2vw, 2rem);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.header-sp-tel-icon {
+    width: 7%;
+}
+
+.main-sp {
+    width: 100%;
+    background-image: url("../img/SP/MV.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.business-sp {
+    width: 100%;
+    background-image: url("../img/SP/haikei3.png"), url("../img/SP/haikei_logo.png");
+    background-size: contain, contain;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 80%, right 73%;
+    background-size: 20%, 70%;
+}
+
+.flow-works-sp {
+    width: 100%;
+    background-image: url("../img/SP/haikei1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 10%; 
+}
+
+.area-faq-sp {
+    width: 100%;
+    background-image: url("../img/SP/haikei4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right 50%;
+    background-size: 25%;
+}
+
+.profile-sp {
+    width: 100%;
+    background-image: url("../img/SP/haikei2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center -15%; 
+}
+
+.contact-sp {
+    width: 100%;
+    background-image: url("../img/SP/haikei5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left 100%;
+    background-size: 15%;
+}
+
+.h1-sp {
+    font-size: clamp(2rem, 9.3vw, 4.375rem);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.03rem;
+    line-height: 1.4;
+}
+
+.h1-text-sp {
+    font-size: clamp(0.9rem, 4.2vw, 2rem);
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    letter-spacing: 0.12rem;
+    line-height: 1.8;
+}
+
+.h1-icon-sp {
+    font-size: clamp(0.8rem, 3.2vw, 1.5rem);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.h1-deco-sp {
+    font-size: clamp(0.9rem, 3.7vw, 1.75rem);
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+.h1-tel-sp {
+    font-size: clamp(1rem, 8vw, 3.75rem);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.h2-sp {
+    font-size: clamp(1.1rem, 4vw, 1.875rem);
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.numbers-sp {
+    font-size: clamp(1.5rem, 6.6vw, 3.125rem);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+.h3-sp {
+    font-size: clamp(1rem, 4.2vw, 2rem);
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+}
+
+.text-sp {
+    font-size: clamp(0.8rem, 3.4vw, 1.625rem);
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    line-height: 1.4;
+}
+
+/*
+    PC表示
+*/
+
+.headeer-pc-menu {
+    font-size: clamp(0.8rem, 1.3vw, 1.2rem);
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.header-pc-tel {
+    font-size: clamp(1rem, 1.5vw, 1.8rem);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.main-pc {
+    width: 100%;
+    background-image: url("../img/PC/MV.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 90%;
+}
+
+.business-pc {
+    width: 100%;
+    background-image: url("../img/PC/haikei3.png"), url("../img/PC/haikei_logo.png");
+    background-size: contain, contain;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 30%, 93% 16%;
+    background-size: 12%, 35%;
+}
+
+.flow-works-pc {
+    width: 100%;
+    background-image: url("../img/PC/haikei1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top; 
+}
+
+.area-faq-profile-pc {
+    width: 100%;
+    background-image: url("../img/PC/haikei4.png"), url("../img/PC/haikei2.png");
+    background-size: contain, contain;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 13%, center 70%;
+    background-size: 12%, 100%;
+}
+
+.contact-pc {
+    width: 100%;
+    background-image: url("../img/PC/haikei5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 13%;
+}
+
+.h1-pc {
+    font-size: clamp(2.5rem, 4.2vw, 5rem);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.03rem;
+    line-height: 1.4;
+}
+
+.h1-text-pc {
+    font-size: clamp(1.1rem, 1.8vw, 2.2rem);
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    letter-spacing: 0.12rem;
+    line-height: 1.8;
+}
+
+.h1-icon-pc {
+    font-size: clamp(0.8rem, 1vw, 1.2rem);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.h1-deco-pc {
+    font-size: clamp(0.9rem, 1.3vw, 1.5rem);
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+.h1-tel-pc {
+    font-size: clamp(1rem, 3.4vw, 3.5rem);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.h2-pc {
+    font-size: clamp(1.1rem, 1.4vw, 1.7rem);
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.numbers-pc {
+    font-size: clamp(1.4rem, 2.1vw, 2.5rem);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+.h3-pc {
+    font-size: clamp(1rem, 1.1vw, 1.3rem);
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+}
+
+.text-pc {
+    font-size: clamp(0.8rem, 1vw, 1.2rem);
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    line-height: 1.4;
+}
